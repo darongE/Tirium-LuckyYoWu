@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<!--////////////////////////////////////////////////////-->
+	<!-- 							vannsKang's blog ver. 0.5a 						-->
+	<!--			 						author: vannsKang 								-->
+	<!--						facebook: fb.com/vanns.Kang 						-->
+	<!--////////////////////////////////////////////////////-->
+	<meta charset="utf-8">
+	<meta name="description" content="this is Vanns' webpage, feel free to look around! :D">
+	<meta name="author" content="vannsKang">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- tistory -->
+	<meta http-equiv="Keywords" content="[##_meta_http_equiv_keywords_##]" />
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##] : comments" href="[##_comment_rss_url_##]" />
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##] : trackbacks" href="[##_trackback_rss_url_##]" />
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##] : comments + trackbacks" href="[##_response_rss_url_##]" />
+	<link rel="shortcut icon" href="[##_blog_link_##]favicon.ico" />
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="./images/bootstrap.min.css" />				
+	<!-- sidebar -->
+	<link rel="stylesheet" type="text/css" href="./images/jquery.mmenu.all.css" />		
+	<!-- toTheTopScroll -->
+	<link rel="stylesheet" type="text/css" href="./images/scrollUp.css" />			
+	<link rel="stylesheet" type="text/css" href="./images/scrollUpImage.css" />		
+	<!-- socialShare -->
+	<link rel="stylesheet" type="text/css" href="./images/arthref.min.css" />			
+	<!-- codeHighlighter -->
+	<link rel="stylesheet" type="text/css" href="./images/monokai_sublime.css" />	
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="./images/font.css" />
+	<link rel="stylesheet" type="text/css" href="./style.css" />	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[endif]-->	
+	<!--[if lt IE 9]>				
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->    
+	<title>vannsKang|VK</title>
+</head>
+<body>
+<div id="container">	
+	<!-- begin title -->
+	<section class="header">
+	<div id="header">	
+	<div class="row navRow">
+		<a type='button' id="sideNavBarToggle" href="#sideMenu"><img class="navToggle" src="./images/bar.gif"></a>
+	</div>	
+	<div class="row">
+	<div class="col-md-12">
+		<div class="row">
+			<div class="blogheader text-center"><a href="[##_blog_link_##]"><strong><span class="text-white">vannsKang</span></strong></a></div>
+		</div>
+		<div class="row">
+			<div class="blogMenuLeft">							
+				<a href="[##_taglog_link_##]"><img src="./images/tags.png"></a> &nbsp;&nbsp;&nbsp;<a href="[##_owner_url_##]/entry/post"><img src="./images/pencil.png"></a>
+			</div>
+			<div class="blogMenuRight">									
+				<a href="[##_blog_link_##]rss" target="_blank"><img src="./images/rss.png"></a> &nbsp;&nbsp;&nbsp;<a href="[##_owner_url_##]"><img src="./images/cog.png"></a>
+			</div>								
+		</div>					
+		<div class="row">				
+			<img class="img-circle avatar" src="./images/avatar.jpg">
+		</div>		
+	</div>
+	</div>
+	</div>
+	</section>
+	<!-- end title -->
+	<!-- begin content -->
+	<section class="content main-content">
+	<div id="content">		
+	<div class="container">
+	<div class="row">				
+	<div class="col-md-12">		
+		<!-- begin searchList -->
+		<s_list>
+		<div class="searchList">
+			<h1><span class="webTitle">'[##_list_conform_##]'에 해당하는 글 [##_list_count_##]건</span></h1>
+			<div class="searchListShow webView">
+				<ul>
+					<s_list_rep>
+					<li><span class="date text-darkBrown">[##_list_rep_regdate_##]</span>&nbsp;<a href="[##_list_rep_link_##]" class="text-black">[##_list_rep_title_##]</a>&nbsp;<span class="text-peru">[##_list_rep_rp_cnt_##]</span></li>
+					</s_list_rep>
+				</ul>						
+			</div>
+		</div>
+		</s_list>
+		<!-- end searchList -->
+		<!-- begin searchRplist -->
+		<s_rplist>
+		<div class="searchRplist">
+			<h1><span class="webTitle">'[##_rplist_conform_##]'에 해당하는 댓글 [##_rplist_count_##]건</span></h1>
+			<div class="searchRplistshow webView">
+				<ul>
+					<s_rplist_rep>
+					<li><span class="date text-darkBrown">[##_rplist_rep_regdate_##]</span>&nbsp;<a href="[##_rplist_rep_link_##]" class="text-black">[##_rplist_rep_body_##]</a>&nbsp;<span class="name text-peru">[##_rplist_rep_name_##]</span></li>
+					</s_rplist_rep>
+				</ul>
+			</div>
+		</div>
+		</s_rplist>
+		<!-- end searchRplist -->
+		<!-- begin tagLog -->
+		<s_tag>
+		<div class="taglog">
+			<h1><span class="webTitle">태그 리스트</span></h1>
+			<div class="tagLogShow webView">
+				<ul class="list-unstyled list-inline">
+					<s_tag_rep>
+					<li><a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a></li>
+					</s_tag_rep>
+				</ul>
+			</div>
+		</div>
+		</s_tag>
+		<!-- end tagLog -->
+		<!-- begin entryNote -->
+		<s_notice_rep>
+		<div class="entryNotice">
+			<div class="titleWrap">
+				<h1 class="text-center"><a class="text-black" href="[##_notice_rep_link_##]"><span class="webTitle">[##_notice_rep_title_##]</span></a></h1>				
+			</div>
+			<div class="article webView">
+				[##_notice_rep_desc_##]
+			</div>
+		</div>
+		</s_notice_rep>
+		<!-- end entryNote -->
+		<!-- begin entryProtected -->
+		<s_article_protected>
+		<div class="entryProtected">
+			<div class="titleWrap">							
+				<h1><a class="text-black" href="[##_article_rep_link_##]"><span class="webTitle">[##_article_rep_title_##]</span></a></h1>
+				<div class="date text-darkBrown webBody">[##_article_rep_date_##]</div>
+			</div>
+			<div class="article text-center webView">
+				<p><img src="./images/unlock.png"></i> 보호되어 있는 글입니다. 내용을 보시려면 비밀번호를 입력하세요.</p>
+				<div class="col-md-12"><label for="[##_article_password_##]" class="webBody">비밀번호 입력</label></div>
+				<div class="col-md-6 col-md-offset-3">
+						<div class="input-group">
+  					<input type="password" id="[##_article_password_##]" name="[##_article_password_##]" maxlength="16" value="" onkeydown="if (event.keyCode == 13)[##_article_dissolve_##]" class="form-control"/>
+			      <span class="input-group-btn">
+			      	<input type="button" class="btn btn-default submit" value="Go!"  onclick="[##_article_dissolve_##]" />
+			      </span>
+			    </div>
+		    </div>
+			</div>
+		</div>
+		</s_article_protected>
+		<!-- end entryProtected -->
+		<!-- begin article -->
+		<s_article_rep>		
+		<div class="entry">					
+			<div class="titleWrap">
+				<h1><a class="text-black" href="[##_article_rep_link_##]"><span class="webTitle">[##_article_rep_title_##]</span></a> <s_ad_div> <a href="#" onclick="[##_s_ad_m_onclick_##]"><img src="./images/commenttyping.png" alt="" /></a></s_ad_div></h1>
+				<span class="category webBody"><a href="[##_article_rep_category_link_##]" class="text-black">[##_article_rep_category_##]</a></span>				
+				<span class="date webBody text-darkBrown">[##_article_rep_date_##]</span>										
+			</div>
+			<div class="shareButton btn btn-default btn-sm">share this post</div>
+			<div class="article webView">
+				[##_article_rep_desc_##]
+			</div>		
+			<!-- begin tagLabel -->
+			<s_tag_label>
+			<div class="row">
+			<div class="col-md-12">
+			<div class="tagTrail text-darkBrown webBody">
+				<img src="./images/tag.png" alt="">
+				<span class="tagText">[##_tag_label_rep_##]</span>							
+			</div>
+			</div>
+			</div>
+			</s_tag_label>
+			<!-- end tagLabel -->
+			<s_rp_count>
+			<div class="actionTrail text-peru">
+				<div class="text-peru webBody">댓글 <span class="cnt">[##_article_rep_rp_cnt_##]</span>개가 달렸습니다.</div>
+			</div>
+			</s_rp_count>
+			<s_rp>
+			<div class="comment">
+				<!-- begin commentList -->
+				<s_rp_container>							
+				<div class="commentList">			
+				<div class="row">
+				<div class="col-md-12">
+					<ol class="reply list-unstyled">
+						<s_rp_rep>
+						<li id='[##_rp_rep_id_##]'>
+							<div class="[##_rp_rep_class_##] firstComment">
+								<div class="commentControl webBody">												
+									<span class="name text-black">[##_rp_rep_name_##]</span>
+									<span class="date"><a href="[##_rp_rep_link_##]" class="address text-darkBrown">[##_rp_rep_date_##]</a></span>										
+									<span class="control">
+										<button type="button" class="btn btn-default modify" onclick="[##_rp_rep_onclick_delete_##]" ><img src="./images/trash.png" alt=""></button>
+										<button type="button" class="btn btn-default write" onclick="[##_rp_rep_onclick_reply_##]" ><img src="./images/downright.png" alt=""></button>
+									</span>
+								</div>
+								<div class="commentContext webComment text-black">[##_rp_rep_desc_##]</div>
+							</div>
+							<s_rp2_container>	
+							<ul class="secondReply list-unstyled">
+								<s_rp2_rep>
+								<li id='[##_rp_rep_id_##]'>
+									<div class="[##_rp_rep_class_##] secondComment">
+										<div class="commentControl webBody">														
+											<span class="name text-black">[##_rp_rep_name_##]</span>
+											<span class="date"><a href="[##_rp_rep_link_##]" class="address text-darkBrown">[##_rp_rep_date_##]</a></span>			
+											<span class="control">
+											<button class="btn btn-default modify" onclick="[##_rp_rep_onclick_delete_##]" ><img src="./images/trash.png" alt=""></button>
+											</span>
+										</div>
+										<div class="commentContext webComment text-black">[##_rp_rep_desc_##]</div>
+									</div>											
+								</li>
+								</s_rp2_rep>
+							</ul>
+							</s_rp2_container>
+						</li>
+						</s_rp_rep>
+					</ol>	
+				</div>
+				</div>								
+				</div>
+				</s_rp_container>
+				<!-- end commentList -->
+				<!-- begin commentWrite -->
+				<s_rp_input_form>	
+				<div class="commentWrite">
+				<div class="row">
+				<div class="col-md-12">									
+					<form role="form">																											
+						<s_rp_member>																				
+							<s_rp_guest>
+							<div class="row">
+						  <div class="form-group col-md-6">
+						    <label for="[##_rp_input_name_##]_[##_article_rep_id_##]">name</label>
+						    <input type="text" id="[##_rp_input_name_##]_[##_article_rep_id_##]" name="[##_rp_input_name_##]" value="" class="form-control textField" placeholder="enter name">
+						  </div>
+						  <div class="form-group col-md-6">
+						    <label for="[##_rp_input_password_##]_[##_article_rep_id_##]">password</label>
+						    <input type="password" id="[##_rp_input_password_##]_[##_article_rep_id_##]" class="form-control textField" maxlength="8" name="[##_rp_input_password_##]" value="" placeholder="password">
+						  </div>
+							</div>
+							</s_rp_guest>									
+						  <div class="checkbox secret-line">								    
+						    <input type="checkbox" name="[##_rp_input_is_secret_##]" class="checkbox" id="[##_rp_input_is_secret_##]_[##_article_rep_id_##]" name="[##_rp_input_is_secret_##]" value="1"/> secret								    
+						  </div> 
+						</s_rp_member>	
+						<div class="row">
+					  <div class="col-md-12 content-line">
+					  <textarea id="[##_rp_input_comment_##]_[##_article_rep_id_##]" placeholder="enter comment" name="[##_rp_input_comment_##]" class="form-control" rows="10"></textarea>
+					  <button type="button" class="btn btn-default btnComment" onclick="[##_rp_onclick_submit_##]">submit</button>
+					  </div>
+						</div>  									
+					</form>
+				</div>	
+				</div>											
+				</div>	
+				</s_rp_input_form>
+				<!-- end commentWrite -->
+			</div>
+			</s_rp>							
+		</div>
+		</s_article_rep>
+		<!-- end article -->
+		<!-- begin paging -->
+		<s_paging>
+		<div class="paging text-center">
+		<div class="row">
+		<div class="col-md-12">
+			<a [##_prev_page_##] class="[##_no_more_prev_##] pull-left"><button class="pageNav btn btn-default btn-lg"><img src="./images/chevron-left.png" alt=""><span class="webBody text-white">prev</span></button></a>
+			<a [##_next_page_##] class="[##_no_more_next_##] pull-right"><button class="pageNav btn btn-default btn-lg"><span class="webBody text-white">next</span><img src="./images/chevron-right.png" alt=""></button></a>
+		</div>
+		</div>
+		</div>
+		</s_paging>
+		<!-- end paging -->
+	</div>				
+	</div>
+	</div>		
+	</div>
+	</section>
+	<!-- end content -->
+	<!-- begin footer -->
+	<section class="footer">
+	<div id="footer">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="copyright text-white text-center">						
+				<div>vanns' blog is powered by <a class="text-darkBrown" target="_blank" href="http://getbootstrap.com/">bootstrap3.0</a><br>designed & developed by <a href="[##_blog_link_##]" target="_blank" class="text-darkBrown">vannsKang</a><br>optimized on <a class="text-darkBrown" href="https://www.google.com/intl/en/chrome/" target="_blank" >google chrome</a></div>
+				<div class="socialButton"><a href="https://twitter.com/VannsKang" target="_blank" class="btn btn-primary">twitter</a><a href="https://www.facebook.com/vanns.kang" target="_blank" class="btn btn-darkBlue">facebook</a><a href="https://plus.google.com/u/0/+VannsKang" target="_blank" class="btn btn-darkRed">google+</a></div>
+			</div>
+		</div>
+		<s_search>
+		<div class="col-md-6 col-md-offset-3">
+			<div class="search">					
+		    <div class="input-group">
+		      <input type="text" class="form-control" placeholder="hey dude! what do you lookin'for ?" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }"/>
+		      <span class="input-group-btn">
+		        <button class="btn btn-default submit" type="button" onclick="[##_search_onclick_submit_##]">Go!</button>
+		      </span>
+		    </div>										
+			</div>			
+		</div>
+		</s_search>
+	</div>
+	</div>
+	</div>
+	</section>
+	<!-- end footer -->
+	<!-- begin sidebar -->
+	<section class="sideinfo modal">
+	<div id="sidebar">	
+	<s_sidebar>				
+		<div class="category">			
+		<s_sidebar_element>				
+			<nav id="sideMenu" class="webNav">				
+				[##_category_list_##]				
+			</nav>			
+		</s_sidebar_element>
+		</div>							
+	</s_sidebar>	
+	</div>			
+	</section>
+	<!-- end sidebar -->
+</div>
+	<!-- jQuery -->
+	<script type="text/javascript" src="./images/jquery.min.js"></script>
+	<!-- bootstrap -->
+	<script type="text/javascript" src="./images/bootstrap.min.js"></script>	
+	<!-- sidebar -->
+	<script type="text/javascript" src="./images/jquery.mmenu.min.all.js"></script>
+	<!-- toTheTopScroll -->
+	<script type="text/javascript" src="./images/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="./images/jquery.scrollUp.min.js"></script>		
+	<!-- fluidvids -->
+	<script type="text/javascript" src="./images/fluidvids.min.js"></script>	
+	<!-- sharebutton -->	
+	<script type="text/javascript" src="./images/socialShare.min.js"></script>		
+	<!-- code highlight -->
+	<script type="text/javascript" src="./images/highlight.pack.js"></script>	
+	<!-- custom -->
+	<script type="text/javascript" src="./images/main.js"></script>
+	<script type="text/javascript" src="./images/responsiveControlStart.js"></script>
+	<script type="text/javascript" src="./images/responsiveControlResize.js"></script>	
+	<!-- begin tistory javascript section-->	
+	<s_t3>
+	</s_t3>
+	<!-- end tistory javascript section-->		
+</body>
+</html>

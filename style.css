@@ -1,0 +1,302 @@
+/*////////////////////////////////////////////////////*/
+/* 						vannsKang's blog ver. 0.5a 							*/
+/*						 		author: vannsKang 									*/
+/*						facebook: fb.com/vanns.Kang 						*/
+/*////////////////////////////////////////////////////*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+a {
+	color: #755214;
+	text-decoration: none;
+}
+a:hover {
+	color: peru;
+	text-decoration: none;
+}
+a:active {
+	color: #755214;
+	text-decoration: none;
+}
+p {
+	margin-bottom: 30px;
+}
+.fluid-vids {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+pre {
+	padding: 0px;
+}
+::selection {
+	color:ivory;
+	background:#755214;
+}
+::-moz-selection {
+	color:ivory;
+	background:#755214;
+}
+.table-responsiveWide {
+width: 100%;
+font-size: 13px;
+margin-bottom: 15.75px;
+overflow-x: scroll;
+overflow-y: hidden;
+border: 1px solid #ddd;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+-webkit-overflow-scrolling: touch;
+}
+/*////////////////////////////////////////////////////*/
+/*								title style handler 								*/
+/*////////////////////////////////////////////////////*/
+.header { 
+  background: url(./images/bg.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  width: auto;
+  height: 450px;		    
+}
+#header {
+	background: radial-gradient(rgba(45,45,45,0) 10%, rgba(0,0,0,0.5)70%);
+  -webkit-background-size: radial-gradient(rgba(45,45,45,0) 10%, rgba(0,0,0,0.5)70%);
+  -moz-background-size: radial-gradient(rgba(45,45,45,0) 10%, rgba(0,0,0,0.5)70%);
+  -o-background-size: radial-gradient(rgba(45,45,45,0) 10%, rgba(0,0,0,0.5)70%);
+  background-size: cover; 	
+	width: auto;
+  height: 450px;		    
+}
+.tistorytoolbar {
+	display: none;
+}
+.blogheader {
+	margin-top: 20px;
+}
+.blogMenuLeft {
+	position: absolute;
+	margin-top: 260px;
+	left: 10%;
+	max-width: 87px;	
+}
+.blogMenuRight {
+	position: absolute;
+	margin-top: 260px;
+	right: 10%;
+	max-width: 87px;	
+}
+.avatar {
+	margin-top: 240px;
+	width: 120px;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid white;
+}
+/*////////////////////////////////////////////////////*/
+/*							sidebar style handler 								*/
+/*////////////////////////////////////////////////////*/
+#sideNavBarToggle {
+	margin-top: 15px;
+}
+.navToggle {
+	margin-top: 15px;
+	margin-left: 30px;	
+	position:relative;
+	width:30px;
+	height:23px;
+}
+.mm-list>li>a:hover {
+	color:white;
+}
+.navAvatar {
+	height: auto;
+	width: 40px;
+	border: 2px solid grey;
+}
+/*////////////////////////////////////////////////////*/
+/*							content style handler 								*/
+/*////////////////////////////////////////////////////*/
+.entry, .searchList, .searchRplist, .taglog, .entryNotice, .entryProtected {
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+}
+.titleWrap {
+	margin-bottom: 2em;
+}
+.shareButton {
+	margin-top: -30px;
+}
+div.video-js {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.imageblock {
+	width: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.imageblock>span>img {
+	position:relative;
+	border: 0;
+	page-break-inside: avoid;
+	max-width: 100% !important;
+	vertical-align: middle;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;	
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transition: all 5s ease;
+     -moz-transition: all 5s ease;
+       -o-transition: all 5s ease;
+      -ms-transition: all 5s ease;
+          transition: all 5s ease;  
+}
+.imageblock>span>img:hover {
+ -webkit-filter: hue-rotate(333deg);
+}
+.cap1 {
+	width: auto;
+	font-size: 14px;
+	font-weight: 300;	
+}
+.captionLg {
+	width: 150px;
+	height: 0px;
+	position: relative;
+	left: -23%;	
+	border-top: 2px solid black;
+	font-size: 17px;	
+	text-align: right;
+}
+.moreless_fold>span,.moreless_top>span,.moreless_bottom>span {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 10px 18px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;	
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;  
+}
+.moreless_fold>span:hover,
+.moreless_fold>span:focus,
+.moreless_fold>span:active,
+.moreless_fold>span.active,
+.moreless_top>span:hover,
+.moreless_top>span:focus,
+.moreless_top>span:active,
+.moreless_top>span.active,
+.moreless_bottom>span:hover,
+.moreless_bottom>span:focus,
+.moreless_bottom>span:active,
+.moreless_bottom>span.active {
+  color: #ffffff;
+  background-color: #0e0e0e;
+  border-color: #040404;
+}
+.moreless_bottom {
+	text-align: right;
+}
+.tagTrail {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.commentList {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.commentWrite {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.commentThumbnail {
+	height: auto;
+	width: 45px;
+}
+img[alt="BlogIcon"] {
+	border-radius: 50%;
+	height: auto;
+	width: 45px;
+}
+.commentControl {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.control {
+	position:absolute;
+	right: 5%;
+}
+.reply {
+	list-style-position:inside;
+}
+.secondReply {
+	padding-left: 50px;
+}
+.paging {
+	margin-top: 100px;
+	width: auto;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+/*////////////////////////////////////////////////////*/
+/*								footer style handler 								*/
+/*////////////////////////////////////////////////////*/
+.footer {
+	background-color: black;
+	margin-top: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.footerLogo {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+	width: auto;
+	margin-bottom: 20px;
+}
+.socialButton {
+	margin-top: 20px;
+}
+.btn-darkBlue {
+	color: white;
+	background-color: #2a4c90;
+	border-color: #2a4c90;
+}
+.btn-darkBlue:hover {
+	background-color: #223a6c;
+	border-color: #223a6c;
+}
+.btn-darkRed {
+	color: white;
+	background-color: firebrick;
+	border-color: firebrick;
+}
+.btn-darkRed:hover {
+	background-color: darkred;
+	border-color: darkred;
+}
+.search {
+	margin-top: 50px;
+}

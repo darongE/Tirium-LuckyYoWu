@@ -1,0 +1,167 @@
+/*////////////////////////////////////////////////////*/
+/* 						vannsKang's blog ver. 0.5a 							*/
+/*						 		author: vannsKang 									*/
+/*						facebook: fb.com/vanns.Kang 						*/
+/*////////////////////////////////////////////////////*/
+@font-face {
+  font-family: '08SeoulHangangL';
+  src: url('08SeoulHangangL.woff');
+  src: url('http://bass2vice.tistory.com/attachment/cfile22.uf@24376B3552F0A9222077BC.eot') format('embedded-opentype'),
+       url('08SeoulHangangL.woff') format('woff'),
+       url('http://bass2vice.tistory.com/attachment/cfile10.uf@224CD33552F0A92317BEEC.ttf') format('truetype');
+}
+@font-face {
+  font-family: '08SeoulNamsanL';
+  src: url('08SeoulNamsanL.woff');
+  src: url('http://bass2vice.tistory.com/attachment/cfile23.uf@24430E3552F0A92C1B424D.eot') format('embedded-opentype'),
+       url('08SeoulNamsanL.woff') format('woff'),
+       url('http://bass2vice.tistory.com/attachment/cfile6.uf@23124D3552F0A92D316F6B.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu-L';
+  src: url('Ubuntu-L.woff');
+  src: url('Ubuntu-L.eot') format('embedded-opentype'),
+       url('Ubuntu-L.woff') format('woff'),
+       url('Ubuntu-L.ttf') format('truetype');
+}
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+/*////////////////////////////////////////////////////*/
+/*							default monitor viewer 								*/
+/*////////////////////////////////////////////////////*/
+h1, .h1, h2, .h2, h3, .h3,  h4, .h4 {
+	font-family: 'SeoulNamsanL', '08SeoulNamsanL', sans-serif;
+	font-weight: bold;
+}
+label {
+	font-size: 22px;
+}
+.webView {
+	font-size: 20px;
+	font-weight: 600;
+}
+.mobileView {
+	font-size: 17px;
+}
+.webTitle {
+	font-size: 40px;
+}
+.mobileTitle {
+	font-size: 23px;	
+}
+.webComment {
+	font-size: 17px;
+	/*font-weight: 600;*/
+}
+.mobileComment {
+	font-size: 15px;
+}
+.webBody {
+	font-size: 18px;
+	font-weight: 600;
+}
+.mobileBody {
+	font-size: 15px;
+}
+.webNav {
+	font-size: 18px;	
+}
+.mobileNav{
+	font-size: 17px;	
+}
+.text-italic {
+	font-style: italic;
+}
+/*////////////////////////////////////////////////////*/
+/*									font-color class									*/
+/*////////////////////////////////////////////////////*/
+.text-white {
+	color: white;
+}
+.text-white:hover {
+	color: #cfcfcf;
+}
+.text-white:active {
+	color: white;
+}
+.text-black {
+	color: black;
+}
+.text-black:hover {
+	color: grey;
+}
+.text-black:active {
+	color: black;
+}
+.text-grey {
+	color: grey;
+}
+.text-grey:hover {
+	color: #565656;	
+}
+.text-grey:active {
+	color: grey;
+}
+.text-dimGray {
+	color: dimgray;
+}
+.text-darkBrown {
+	color: #755214;
+}
+.text-darkBrown:hover {
+	color: peru;
+}
+.text-darkBrwon:active {
+	color: #755214;
+}
+.text-peru {
+	color: peru;
+}
+.tagText>a:hover, .tagLogShow>ul>li>a:hover {
+	color: ivory;
+	background-color: peru;
+	padding: 1px 1px 1px 1px;
+}
+/*////////////////////////////////////////////////////*/
+/*								specific font handler 							*/
+/*////////////////////////////////////////////////////*/
+.header, .footer, nav>div {
+	font-family: 'Ubuntu-L', 'Ubuntu', sans-serif;
+}
+.blogheader {
+	font-size: 4em;
+}
+.article, .searchListShow, .searchRplistshow, .commentContext {
+	font-family: 'SeoulHangangL', '08SeoulHangangL', 'Nanum Myeongjo', serif;	
+}
+.titleWrap, .actionTrail, .tagTrail, .tagLogShow {
+	font-family: 'SeoulNamsanL', '08SeoulNamsanL', sans-serif;
+	font-weight: 600;
+}
+.commentControl>span.name>a {
+	color: black;	
+	font-family: 'SeoulNamsanL', '08SeoulNamsanL', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+}
+.commentControl>span.name>a:hover {
+	color: grey;	
+}
+.commentControl>span.name {	
+	font-family: 'SeoulNamsanL', '08SeoulNamsanL', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+}
+.copyright {
+	font-size: 19px;
+	font-weight: bold;
+}
+nav>ul>li {
+	font-family: 'SeoulNamsanL', '08SeoulNamsanL', sans-serif;
+	font-size: 19px;
+}
+.paging {
+	font-family: 'Ubuntu-L', 'Ubuntu', sans-serif;
+}

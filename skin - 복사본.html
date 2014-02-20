@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="this is Vanns' webpage, feel free to look around! :D">
+	<meta name="author" content="vannsKang">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="./images/bootstrap.min.css" />		
+	<!-- font-awesome -->
+	<link rel="stylesheet" type="text/css" href="./images/font-awesome.min.css" />	
+	<!-- sidebar -->
+	<link rel="stylesheet" type="text/css" href="./images/jquery.sidr.dark.css" />	
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="./style.css" />	
+	<link rel="stylesheet" type="text/css" href="./images/font.css" />
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->    
+	<title>Vanns Kang|VK</title>
+</head>
+<body>
+<div id="container">
+	<section class="header">
+	<div id="header">	
+		<div class="row">
+			<a type='button' id="sideNavBarToggle"  class="navToggle btn btn-default" href="#sidebar"><i class="fa fa-bars fa-2x text-white"></i></a>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="blogheader text-center"><a href="[##_blog_link_##]"><strong><span class="text-white">vannsKang</span></strong></a></div>
+					</div>
+					<div class="row">
+						<div class="blogMenuLeft list-unstyled list-inline">		
+							<li><a href="[##_taglog_link_##]"><i class="fa fa-tags fa-2x text-white"></i></a></li>				
+							<li><a href="[##_owner_url_##]/entry/post"><i class="fa fa-edit fa-2x text-white"></i></a></li>															
+						</div>
+						<div class="blogMenuRight list-unstyled list-inline">					
+							<li><a href="[##_blog_link_##]rss" target="_blank"><i class="fa fa-rss fa-2x text-white"></i></a></li>		
+							<li><a href="[##_owner_url_##]"><i class="fa fa-cog fa-2x fa-spin text-white"></i></a></li>
+						</div>								
+					</div>					
+					<div class="row">				
+						<img class="img-circle avatar" src="./images/avatar.jpg">
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	</section>
+	<section class="content">
+	<div id="content">
+		<!-- begin mobileView -->
+		<div class="container visible-sm visible-xs">
+			<div class="row">				
+				<div class="col-xs-12">
+					
+					<!-- begin searchList -->
+					<s_list>
+					<div class="searchList">
+						<h3>'[##_list_conform_##]'에 해당하는 글 [##_list_count_##]건</h3>
+						<div class="searchListShow mobileView">
+							<ul>
+								<s_list_rep>
+								<li><span class="date text-darkBrown">[##_list_rep_regdate_##]</span>&nbsp;<a class="text-black" href="[##_list_rep_link_##]">[##_list_rep_title_##]</a>&nbsp;<span class="text-lightBrown">[##_list_rep_rp_cnt_##]</span></li>
+								</s_list_rep>
+							</ul>						
+						</div>
+					</div>
+					</s_list>
+					<!-- end searchList -->
+
+					<!-- begin searchRplist -->
+					<s_rplist>
+					<div class="searchRplist">
+						<h3>'[##_rplist_conform_##]'에 해당하는 댓글 [##_rplist_count_##]건</h3>
+						<div class="searchRplistshow mobileView">
+							<ul>
+								<s_rplist_rep>
+								<li><span class="date text-darkBrown">[##_rplist_rep_regdate_##]</span>&nbsp;<a href="[##_rplist_rep_link_##]" class="text-black">[##_rplist_rep_body_##]</a>&nbsp;<span class="name text-lightBrown">[##_rplist_rep_name_##]</span></li>
+								</s_rplist_rep>
+							</ul>
+						</div>
+					</div>
+					</s_rplist>
+					<!-- end searchRplist -->
+
+					<!-- begin tagLog -->
+					<s_tag>
+					<div class="taglog">
+						<h3>태그 리스트</h3>
+						<div class="tagLogShow mobileView">
+							<ul>
+								<s_tag_rep>
+								<li><a href="[##_tag_link_##]" class="[##_tag_class_##] text-darkBrown">[##_tag_name_##]</a></li>
+								</s_tag_rep>
+							</ul>
+						</div>
+					</div>
+					</s_tag>
+					<!-- end tagLog -->
+
+					<!-- begin entryNote -->
+					<s_notice_rep>
+					<div class="entryNotice">
+						<div class="titleWrap">
+							<h3><a href="[##_notice_rep_link_##]" class="text-black">[##_notice_rep_title_##]</a></h3>
+						</div>
+						<div class="article mobileView">
+							[##_notice_rep_desc_##]
+						</div>
+					</div>
+					</s_notice_rep>
+					<!-- end entryNote -->
+
+					<!-- begin entryProtected -->
+					<s_article_protected>
+					<div class="entryProtected">
+						<div class="titleWrap">
+							<h3><a class="text-black" href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+							<div class="date text-darkBrown"><h5>[##_article_rep_date_##]</h5></div>
+						</div>
+						<div class="article text-center mobileView">
+							<p><i class="fa fa-unlock-alt"></i> 보호되어 있는 글입니다. 내용을 보시려면 비밀번호를 입력하세요.</p>
+							<label for="[##_article_password_##]" class="col-md-3 mobileTitle">비밀번호 입력</label>
+							<div class="col-md-8">
+	 							<div class="input-group">
+	      					<input type="password" maxlength="16" class="form-control input-sm" id="[##_article_password_##]" name="[##_article_password_##]" value="" onkeydown="if (event.keyCode == 13)[##_article_dissolve_##]" />
+						      <span class="input-group-btn">
+						      	<input type="button" class="btn btn-default btn-sm submit" value="Go!" onclick="[##_article_dissolve_##]" />
+						      </span>
+						    </div>
+					    </div>
+						</div>
+					</div>
+					</s_article_protected>
+					<!-- end entryProtected -->
+
+					<!-- begin article -->
+					<s_article_rep>
+					<div class="entry">
+						<div class="titleWrap mobileTitle">
+							<h3><a class="text-black" href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+							<span class="category"><a class="text-grey" href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></span> <span class="date text-darkBrown">[##_article_rep_date_##]</span>
+						</div>
+						<div class="article mobileView">
+							[##_article_rep_desc_##]
+						</div>												
+						<s_tag_label>
+						<div class="tagTrail mobileTitle text-darkBrown">
+							<i class="fa fa-tag"></i>
+							<span class="tagText">[##_tag_label_rep_##]</span>
+						</div>
+						</s_tag_label>						
+						<s_rp_count>
+						<div class="actionTrail mobileTitle text-lightBrown">
+							<div class="text-lightBrown">댓글 <span class="cnt">[##_article_rep_rp_cnt_##]</span>개가 달렸습니다.</div>
+						</div>
+						</s_rp_count>						
+						<s_rp_container>
+						<div class="commentList">						
+							<ol>
+								<s_rp_rep>
+								<li id="[##_rp_rep_id_##]">
+									<div class="firstComment [##_rp_rep_class_##] rp_general">
+										<div class="commentControl mobileTitle">
+											<span><img class="img-circle commentThumbnailSm" src="[##_image_##]"></span>
+											<span class="name text-black">[##_rp_rep_name_##]</span>
+											<span class="date text-darkBrown">[##_rp_rep_date_##]</span>										
+											<span class="control">
+											<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify"><i class="fa fa-trash-o text-black"></i></a>
+											<a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write"><i class="fa fa-reply text-black"></i></a>
+											</span>
+										</div>
+										<div class="commentListShow mobileView">
+											[##_rp_rep_desc_##]
+										</div>
+									</div>
+									<s_rp2_container>	
+									<ul>
+										<s_rp2_rep>
+										<li id="[##_rp_rep_id_##]">
+											<div class="secondComment [##_rp_rep_class_##]">
+												<div class="commentControl mobileTitle">
+													<span><img class="img-circle commentThumbnailSm" src="[##_image_##]"></span>
+													<span class="name text-black">[##_rp_rep_name_##]</span>
+													<span class="date text-darkBrown">[##_rp_rep_date_##]</span>										
+													<span class="control">
+													<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify"><i class="fa fa-trash-o text-black"></i></a>
+													</span>
+												</div>
+												<div class="commentListShow mobileView">
+													[##_rp_rep_desc_##]
+												</div>
+											</div>											
+										</li>
+										</s_rp2_rep>
+									</ul>
+									</s_rp2_container>
+								</li>
+								</s_rp_rep>
+							</ol>						
+						</div>
+						</s_rp_container>
+						<s_rp_input_form>
+						<div class="commentWrite row">						
+							<div class="col-md-12">															
+								<form role="form">	
+								<s_rp_member>							
+									<div class="row">
+									<s_rp_guest>
+									  <div class="form-group col-md-6">
+									    <label class="mobileBody">name</label>
+									    <input type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" class="form-control input-sm" placeholder="enter name"/>
+									  </div>
+									  <div class="form-group col-md-6">
+									    <label class="mobileBody">password</label>
+									    <input type="password" class="form-control input-sm" maxlength="8" name="[##_rp_input_password_##]" placeholder="password"/>
+									  </div>
+									</s_rp_guest>
+									</div>
+								  <div class="checkbox secretWrap">								    
+								    <input type="checkbox" name="[##_rp_input_is_secret_##]" class="checkbox" /> secret								    
+								  </div> 
+								</s_rp_member>		
+									<div class="row">
+									  <div class="col-md-12">
+									  <textarea class="form-control"  name="[##_rp_input_comment_##]" rows="5"></textarea>
+									  <button type="submit" class="btn btn-default" onclick="[##_rp_onclick_submit_##]">submit</button>
+									  </div>
+									</div>  
+								</form>
+							</div>						
+						</div>	
+						</s_rp_input_form>
+					</div>
+					</s_article_rep>
+					<!-- end article -->
+					
+					<!-- begin paging -->
+					<s_paging>
+					<div class="paging text-center">												
+						<ul class="pagination pagination">													
+						  <li><a href="[##_prev_page_##]" class="[##_no_more_prev_##]"><i class="fa fa-arrow-left text-black"></i></a></li>						  						 
+							<li><span class="numbox"><s_paging_rep><a href="[##_paging_rep_link_##]" class="num"><span class="text-black">[##_paging_rep_link_num_##]</span></a></s_paging_rep></span></li>													 
+						  <li><a href="[##_next_page_##]" class="[##_no_more_next_##]"><i class="fa fa-arrow-right text-black"></i></a></li>					  						  
+						</ul>												
+					</div>
+					</s_paging>
+					<!-- end paging -->
+
+				</div>			
+			</div>
+		</div>
+		<!-- end mobileView -->
+
+		<!-- begin webView -->
+		<div class="container visible-md visible-lg">
+			<div class="row">				
+				<div class="col-md-12">
+					
+					<!-- begin searchList -->
+					<s_list>
+					<div class="searchList">
+						<h1>'[##_list_conform_##]'에 해당하는 글 [##_list_count_##]건</h1>
+						<div class="searchListShow webView">
+							<ul>
+								<s_list_rep>
+								<li><span class="date text-darkBrown">[##_list_rep_regdate_##]</span>&nbsp;<a href="[##_list_rep_link_##]" class="text-black">[##_list_rep_title_##]</a>&nbsp;<span class="text-lightBrown">[##_list_rep_rp_cnt_##]</span></li>
+								</s_list_rep>
+							</ul>						
+						</div>
+					</div>
+					</s_list>
+					<!-- end searchList -->
+					
+					<!-- begin searchRplist -->
+					<s_rplist>
+					<div class="searchRplist">
+						<h1>'[##_rplist_conform_##]'에 해당하는 댓글 [##_rplist_count_##]건</h1>
+						<div class="searchRplistshow webView">
+							<ul>
+								<s_rplist_rep>
+								<li><span class="date text-darkBrown">[##_rplist_rep_regdate_##]</span>&nbsp;<a href="[##_rplist_rep_link_##]" class="text-black">[##_rplist_rep_body_##]</a>&nbsp;<span class="name text-lightBrown">[##_rplist_rep_name_##]</span></li>
+								</s_rplist_rep>
+							</ul>
+						</div>
+					</div>
+					</s_rplist>
+					<!-- end searchRplist -->
+
+					<!-- begin tagLog -->
+					<s_tag>
+					<div class="taglog">
+						<h1>태그 리스트</h1>
+						<div class="tagLogShow webView">
+							<ul>
+								<s_tag_rep>
+								<li><a href="[##_tag_link_##]" class="[##_tag_class_##] text-darkBrown">[##_tag_name_##]</a></li>
+								</s_tag_rep>
+							</ul>
+						</div>
+					</div>
+					</s_tag>
+					<!-- end tagLog -->
+					
+					<!-- begin entryNote -->
+					<s_notice_rep>
+					<div class="entryNotice">
+						<div class="titleWrap">
+							<h1><a class="text-black" href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h1>
+						</div>
+						<div class="article webView">
+							[##_notice_rep_desc_##]
+						</div>
+					</div>
+					</s_notice_rep>
+					<!-- end entryNote -->
+
+					<!-- begin entryProtected -->
+					<s_article_protected>
+					<div class="entryProtected">
+						<div class="titleWrap">							
+							<h1><a class="text-black" href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h1>
+							<div class="date text-darkBrown"><h3>[##_article_rep_date_##]</h3></div>
+						</div>
+						<div class="article text-center webView">
+							<p><i class="fa fa-unlock-alt"></i> 보호되어 있는 글입니다. 내용을 보시려면 비밀번호를 입력하세요.</p>
+							<div class="col-md-12"><label for="[##_article_password_##]" class="h3">비밀번호 입력</label></div>
+							<div class="col-md-6 col-md-offset-3">
+	 							<div class="input-group">
+	      					<input type="password" id="[##_article_password_##]" name="[##_article_password_##]" maxlength="16" value="" onkeydown="if (event.keyCode == 13)[##_article_dissolve_##]" class="form-control"/>
+						      <span class="input-group-btn">
+						      	<input type="button" class="btn btn-default submit" value="Go!"  onclick="[##_article_dissolve_##]" />
+						      </span>
+						    </div>
+					    </div>
+						</div>
+					</div>
+					</s_article_protected>
+					<!-- end entryProtected -->
+
+					<!-- begin article -->
+					<s_article_rep>
+					<div class="entry">
+						<div class="titleWrap">
+							<h1><a class="text-black" href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h1>
+							<h3><span class="category"><a href="[##_article_rep_category_link_##]" class="text-grey">[##_article_rep_category_##]</a></span> <span class="date text-darkBrown">[##_article_rep_date_##]</span></h3>					
+						</div>
+						<div class="article webView">
+							[##_article_rep_desc_##]
+						</div>						
+						<s_tag_label>
+						<div class="tagTrail h3 text-darkBrown">							
+							<i class="fa fa-tag"></i>
+							<span class="tagText">[##_tag_label_rep_##]</span>							
+						</div>
+						</s_tag_label>
+						<s_rp_count>
+						<div class="actionTrail h3 text-lightBrown">
+							<div class="text-lightBrown">댓글 <span class="cnt">[##_article_rep_rp_cnt_##]</span>개가 달렸습니다.</div>
+						</div>
+						</s_rp_count>
+						<s_rp_container>
+						<div class="commentList">						
+							<ol>
+								<s_rp_rep>
+								<li id='[##_rp_rep_id_##]'>
+									<div class="firstComment [##_rp_rep_class_##]">
+										<div class="commentControl h3">
+											<span><img class="img-circle commentThumbnail" src="[##_image_##]"></span>
+											<span class="name text-black">[##_rp_rep_name_##]</span>
+											<span class="date text-darkBrown">[##_rp_rep_date_##]</span>										
+											<span class="control">
+											<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify"><i class="fa fa-trash-o text-black"></i></a>
+											<a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write"><i class="fa fa-reply text-black"></i></a>
+											</span>
+										</div>
+										<div class="commentListShow">
+											[##_rp_rep_desc_##]
+										</div>
+									</div>
+									<s_rp2_container>	
+									<ul>
+										<s_rp2_rep>
+										<li id='[##_rp_rep_id_##]'>
+											<div class="secondComment [##_rp_rep_class_##]">
+												<div class="commentControl h3">
+													<span><img class="img-circle commentThumbnail" src="[##_image_##]"></span>
+													<span class="name text-black">[##_rp_rep_name_##]</span>
+													<span class="date text-darkBrown">[##_rp_rep_date_##]</span>										
+													<span class="control">
+													<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify"><i class="fa fa-trash-o text-black"></i></a>
+													</span>
+												</div>
+												<div class="commentListShow">
+													[##_rp_rep_desc_##]
+												</div>
+											</div>											
+										</li>
+										</s_rp2_rep>
+									</ul>
+									</s_rp2_container>
+								</li>
+								</s_rp_rep>
+							</ol>						
+						</div>
+						</s_rp_container>
+						<s_rp_input_form>
+						<div class="commentWrite row">						
+							<div class="col-md-12">															
+								<form role="form">	
+								<s_rp_member>							
+									<div class="row">
+									<s_rp_guest>
+									  <div class="form-group col-md-6">
+									    <label>name</label>
+									    <input type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" class="form-control" placeholder="enter name">
+									  </div>
+									  <div class="form-group col-md-6">
+									    <label>password</label>
+									    <input type="password" class="form-control" maxlength="8" name="[##_rp_input_password_##]" placeholder="password">
+									  </div>
+									</s_rp_guest>
+									</div>
+								  <div class="checkbox secretWrap">								    
+								    <input type="checkbox" name="[##_rp_input_is_secret_##]" class="checkbox"> secret								    
+								  </div> 
+								</s_rp_member>		
+									<div class="row">
+									  <div class="col-md-12">
+									  <textarea name="[##_rp_input_comment_##]" class="form-control" rows="10"></textarea>
+									  <button type="submit" class="btn btn-default" onclick="[##_rp_onclick_submit_##]">submit</button>
+									  </div>
+									</div>  
+								</form>
+							</div>						
+						</div>	
+						</s_rp_input_form>
+
+					</div>
+					</s_article_rep>
+					<!-- end article -->
+						
+					<!-- begin paging -->
+					<s_paging>
+					<div class="paging text-center">
+						<ul class="pagination pagination-lg">
+						  <li><a href="[##_prev_page_##]" class="[##_no_more_prev_##]"><i class="fa fa-arrow-left text-black"></i></a></li>						  
+							<li><span class="numbox"><s_paging_rep><a href="[##_paging_rep_link_##]" class="num"><span class="text-black">[##_paging_rep_link_num_##]</span></a></s_paging_rep></span></li>						  
+						  <li><a href="[##_next_page_##]" class="[##_no_more_next_##]"><i class="fa fa-arrow-right text-black"></i></a></li>
+						</ul>
+					</div>
+					</s_paging>
+					<!-- end paging -->
+
+				</div>				
+			</div>
+		</div>
+		<!-- end webView -->
+
+	</div>
+	</section>
+	<section class="footer">
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="copyright text-white text-center">
+						<div><img class="footerLogo" src="./images/logo.png"></div>
+						<div>vanns' blog is powered by <a class="text-darkBrown" target="_blank" href="http://getbootstrap.com/">bootstrap3.0</a><br>designed & developed by <a href="[##_blog_link_##]" target="_blank" class="text-darkBrown">vannsKang</a></div>
+						<div class="socialButton"><a href="https://twitter.com/VannsKang" target="_blank" class="btn btn-primary">twitter</a><a href="https://www.facebook.com/vanns.kang" target="_blank" class="btn btn-darkBlue">facebook</a><a href="https://plus.google.com/u/0/+VannsKang" target="_blank" class="btn btn-darkRed">google+</a></div>
+					</div>
+				</div>
+				<s_search>
+				<div class="col-md-6 col-md-offset-3">
+					<div class="search">					
+				    <div class="input-group">
+				      <input type="text" class="form-control" placeholder="hey, guys !! what do you lookin'for ?" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }"/>
+				      <span class="input-group-btn">
+				        <button class="btn btn-default submit" type="button" onclick="[##_search_onclick_submit_##]">Go!</button>
+				      </span>
+				    </div>										
+					</div>			
+				</div>
+				</s_search>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section class="sideinfo">
+	<div class="modal fade">
+		<div id="sidebar">
+		<s_sidebar>
+			<s_sidebar_element>
+			<div class="category">
+				[##_category_##]
+			</div>
+			</s_sidebar_element>
+		</s_sidebar>
+		</div>		
+	</div>
+	</section>	
+</div>
+	<!-- jQuery -->
+	<script type="text/javascript" src="./images/jquery.min.js"></script>
+	<!-- bootstrap -->
+	<script type="text/javascript" src="./images/bootstrap.min.js"></script>
+	<!-- sidebar -->
+	<script type="text/javascript" src="./images/jquery.sidr.min.js"></script>
+	<!-- custom -->
+	<script type="text/javascript" src="./images/main.js"></script>
+</body>
+</html>
