@@ -1,14 +1,12 @@
 //////////////////////////////////////////////////////
-// 						vannsKang's blog ver. 0.5a						//
+// 						vannsKang's blog ver. 0.82b						//
 //		 						author: vannsKang									//
 //					facebook: fb.com/vanns.Kang 						//
 //////////////////////////////////////////////////////
 jQuery(window).load(function() { // detect window browser size when resize//
 	var $windowWidth = $(window).width();
-	// console.log('$windowWidthout:',$windowWidth);
 	$(window).resize(function() {		// detect window browser size when resize//
-		var $windowWidth = $(window).width();   // This will return the width of browser viewport //	
-		// console.log('$windowWidth:',$windowWidth);
+		var $windowWidth = $(window).width();   // This will return the width of browser viewport //
 		var $webView = $('.webView');
 		var $mobileView = $('.mobileView');
 		var $webTitle = $('.webTitle');
@@ -37,14 +35,12 @@ jQuery(window).load(function() { // detect window browser size when resize//
 		var $webMoreLessFold = $('.moreless_fold>span');
 		var $webMoreLessTop = $('.moreless_top>span');
 		var $webMoreLessBottom = $('.moreless_bottom>span');
-		// var $p = $('p');
-		// var $fluidvids = $('.fluid-vids');
-		// var $imageblock = $('div.imageblock');
-		if ($windowWidth <= 768) {		
+		$('#sb-site').removeAttr('style');
+		if ($windowWidth <= 768) {
 			// articleHandler
 			$webView.addClass('mobileView');
 			$webView.removeClass('webView');
-			// titleHandler			
+			// titleHandler
 			$webTitle.addClass('mobileTitle');
 			$webTitle.removeClass('webTitle');
 			// bodyHandler
@@ -62,7 +58,7 @@ jQuery(window).load(function() { // detect window browser size when resize//
 			$guestCommentThumbnail.attr('style','width: 30px;');
 			// commentButtonHandler
 			$commentDelete.addClass('btn-sm');
-			$commentReply.addClass('btn-sm');			
+			$commentReply.addClass('btn-sm');
 			$commentDeleteIcon.removeClass('fa-lg');
 			$commentReplyIcon.removeClass('fa-lg');
 			$commentButton.addClass('btn-sm');
@@ -70,7 +66,7 @@ jQuery(window).load(function() { // detect window browser size when resize//
 			$label.attr('style','font-size: 18px;');
 			$textField.addClass('input-sm');
 			$textarea.attr('rows','3');
-			// pagination			
+			// pagination
 			$pagination.removeClass('btn-lg');
 			// nav Handler
 			$webNav.addClass('mobileNav');
@@ -81,19 +77,15 @@ jQuery(window).load(function() { // detect window browser size when resize//
 			$webMoreLessFold.attr('style', 'padding: 5px 10px;font-size: 13px;line-height: 1.5; border-radius: 0;');
 			$webMoreLessTop.attr('style', 'padding: 5px 10px;font-size: 13px;line-height: 1.5; border-radius: 0;');
 			$webMoreLessBottom.attr('style', 'padding: 5px 10px;font-size: 13px;line-height: 1.5; border-radius: 0;');
-			// basic
-			// $p.attr('style','margin-bottom: 10px;')
-			// $fluidvids.attr('style', 'margin-top: 10px;margin-bottom: 10px;')
-			// $imageblock.atrr('style', 'margin-top: 10px;margin-bottom: 10px;')
 			return;
-		} else if ($windowWidth > 768) {
+		} else {
 			// articleHandler
 			$mobileView.addClass('webView');
-			$mobileView.removeClass('mobileView');			
-			// titleHandler			
+			$mobileView.removeClass('mobileView');
+			// titleHandler
 			$mobileTitle.addClass('webTitle');
-			$mobileTitle.removeClass('mobileTitle');	
-			// bodyHandler		
+			$mobileTitle.removeClass('mobileTitle');
+			// bodyHandler
 			$mobileBody.addClass('webBody');
 			$mobileBody.removeClass('mobileBody');
 			// commentHandler
@@ -108,7 +100,7 @@ jQuery(window).load(function() { // detect window browser size when resize//
 			$guestCommentThumbnail.removeAttr('style');
 			// commentButtonHandler
 			$commentDelete.removeClass('btn-sm');
-			$commentReply.removeClass('btn-sm');			
+			$commentReply.removeClass('btn-sm');
 			$commentDeleteIcon.addClass('fa-lg');
 			$commentReplyIcon.addClass('fa-lg');
 			$commentButton.removeClass('btn-sm');
@@ -117,7 +109,7 @@ jQuery(window).load(function() { // detect window browser size when resize//
 			$textField.removeClass('input-sm');
 			$textarea.attr('rows','10');
 			// pagination
-			$pagination.addClass('btn-lg');			
+			$pagination.addClass('btn-lg');
 			// nav Handler
 			$mobileNav.addClass('webNav');
 			$mobileNav.removeClass('mobileNav');
@@ -127,10 +119,6 @@ jQuery(window).load(function() { // detect window browser size when resize//
 			$webMoreLessFold.removeAttr('style');
 			$webMoreLessTop.removeAttr('style');
 			$webMoreLessBottom.removeAttr('style');
-			// basic
-			// $p.attr('style','margin-bottom: 30px;')
-			// $fluidvids.attr('style', 'margin-top: 25px;margin-bottom: 25px;')
-			// $imageblock.atrr('style', 'margin-top: 25px;margin-bottom: 25px;')
 			return;
 		};
 	});
