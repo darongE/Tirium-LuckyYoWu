@@ -16,5 +16,5 @@ __[VannasKang](http://vannskang.com/)__님의 __[Trium 티스토리 스킨(0.83b
 * 기타 사소한 잡잡 등등
 
 ### ETC
-* skin_origin.html 은 Tirium 0.83b의 원본 소스다.
+* originSkinHtml/skin.html 은 Tirium 0.83b의 원본 소스다.
 * 폰트를 변경하고 싶으면 images/tiriumFont.css에 웹폰트 추가후 article의 font-family를 수정(하면 될듯함. 나는 안해봄)
