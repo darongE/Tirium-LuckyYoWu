@@ -18,3 +18,4 @@ __[VannasKang](http://vannskang.com/)__님의 __[Trium 티스토리 스킨(0.83b
 ### ETC
 * originSkinHtml/skin.html 은 Tirium 0.83b의 원본 소스다.
 * 폰트를 변경하고 싶으면 images/tiriumFont.css에 웹폰트 추가후 article의 font-family를 수정(하면 될듯함. 나는 안해봄)
+* 스킨 하단의 연락처 정보(E-mail, facebook, twitter 등) 갱신은 skin.html의 [418 line](https://github.com/uyu423/Tirium-LuckyYoWu/blob/master/skin.html#L418) 부터 입맛대로 수정하면 된다.
