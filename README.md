@@ -3,8 +3,10 @@ Tistory Skin "Tirium" customize version by YoWu
 
 ### Repository Overview
 __[VannasKang](http://vannskang.com/)__님의 __[Trium 티스토리 스킨(0.83b)](http://vannskang.tistory.com/105)__의 문제점을 개선 + 제 개인 설정이 적용된 Tirium 스킨 버전입니다.
-* 원 소스코드에 대한 권리는 __VannasKang__님에게 있습니다.
+* 설치방법은 기존 Tirium 같습니다. VannasKang님 블로그 [링크](http://vannskang.tistory.com/104) 참고, 단 __글쓰기 가로폭을 730px로 설정__
+* 원 소스코드에 대한 권리는 여전히 __VannasKang__님에게 있습니다.
 * 해당 소스는 __[Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/)__를 따릅니다.
+* 잡담 : http://luckyyowu.tistory.com/295
 
 ### Customize Overview
 자세한 내용은 http://luckyyowu.tistory.com/285#tiriumcustom 참고
