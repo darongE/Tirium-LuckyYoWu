@@ -17,6 +17,11 @@ __[VannasKang](http://vannskang.com/)__님의 __[Trium 티스토리 스킨(0.83b
 * 스킨 최하단 방문자 카운터 추가(skin.html)
 * 기타 사소한 잡잡 등등
 
+### Scheduled Update
+* Bootstrap에 걸쳐진 hyperlink의 색상 이상현상 해결
+* 전체적인 hyperlink 색상 재조정
+* Social Icon 등록
+
 ### ETC
 * originSkinHtml/skin.html 은 Tirium 0.83b의 원본 소스다.
 * 폰트를 변경하고 싶으면 images/tiriumFont.css에 웹폰트 추가후 article의 font-family를 수정(하면 될듯함. 나는 안해봄)
