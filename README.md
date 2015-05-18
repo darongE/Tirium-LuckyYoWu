@@ -18,8 +18,8 @@ __[VannasKang](http://vannskang.com/)__님의 __[Trium 티스토리 스킨(0.83b
 * 기타 사소한 잡잡 등등
 
 ### Scheduled Update
-* Bootstrap에 걸쳐진 hyperlink의 색상 이상현상 해결
-* 전체적인 hyperlink 색상 재조정
+* Bootstrap CSS로 사용된  hyperlink CSS Color 이상현상 해결 (ex. bootstrap panel class)
+* 전체적인 hyperlink CSS color 재조정
 * Social Icon 등록
 
 ### ETC
